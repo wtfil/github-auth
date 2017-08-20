@@ -1,7 +1,7 @@
 {
   "name": "github-auth",
-  "version": "0.5.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "connect compatible middleware for auth with github",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,10 @@
   "author": "",
   "repository": "https://github.com/e-conomic/github-auth",
   "dependencies": {
-    "routil-cookie": "0.0.1",
-    "cookie-signature": "1.0.1",
-    "async": "0.2.10",
-    "request": "2.33.0"
+    "async": "^2.1.2",
+    "cookie-signature": "^1.0.6",
+    "deepcopy": "^0.6.3",
+    "request": "^2.75.0",
+    "routil-cookie": "0.0.1"
   }
 }
